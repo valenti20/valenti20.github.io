@@ -1,0 +1,84 @@
+@media (max-width:860px){
+    .encrip{
+        width:25%;
+        position:relative;
+    }
+    .letras{
+        font-size:1.8em;
+    }
+    .textoUno{
+        padding:1.5% 3%;
+        margin-left:4.5%;
+    }
+    .textoDos{
+        padding:1.5% 3%;
+    }
+    .btnExtra{
+        margin-left:6.5%;
+    }
+    .btnCodigo{
+        margin-left:12%;
+    }
+    #uno{
+        width:15%;
+    }
+    .copyright{
+        font-size:1.5em;
+        margin-top:17%;
+    }
+}
+@media (max-width:780px){
+    .letras{
+        margin-top:2%;
+        margin-bottom:1.5%;
+    }
+    .textoUno{
+        width:25%;
+        padding:0.5% 7%;
+        margin-left:8.5%;
+        margin-top:1.5%;
+        margin-bottom:1%;
+    }
+    .textoDos{
+        width:25%;
+        padding:0.5% 7%;
+        margin-left:5%;
+        margin-top:1.5%;
+        margin-bottom:1%;
+    }
+    .btnExtra{
+        margin-left:9%;
+    }
+    .btnCodigo{
+        margin-left:10%;
+    }
+    .copyright{
+        margin-top:20%;
+    }
+}
+@media (max-width:700px){
+    .btnExtra{
+        margin-left:2%;
+    }
+    .btnCodigo{
+        margin-left:0.01%;
+    } 
+    #uno{
+        width:21.5%;
+    }
+    #dos{
+        width:16%;
+    }
+    #tres{
+        width:12.5%;
+    }
+    #cuatro{
+        width:12.5%;
+    }
+    #cinco{
+        width:21.5%;
+    }
+    .copyright{
+        margin-top:20%;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador.css">
+        <link rel="stylesheet" href="encriptador-resp.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body class="fondo-animado">
+        <header>
+            <img src="encrip.svg" class="encrip">
+        </header>
+        <main>
+           <h4 class="letras"> Ingresar solo letras minúsculas</h4>
+           <div class="cajas">
+                <textarea type="text" cols="40" rows="10" class="textoUno" id="textoUno" placeholder="Ingrese el Texto"></textarea>
+                <textarea type="text" cols="40" rows="10" class="textoDos" 
+                id="textoDos" placeholder="..."></textarea>
+           </div>
+            <div class="btnExtra">
+                <button type="button" value="copy" id="tres" class="tres" onclick="botonCopiar()">Copiar</button>
+                <button type="button" value="paste" id="cuatro" class="tres" onclick="botonPegar()">Pegar</button>
+                <button type="button" id="cinco" class="cinco" onclick="botonLimpiar()">Eliminar Textos</button>
+            </div>
+             <div class="btnCodigo">
+                <button type="button" id="uno" class="uno" onclick="botonDesencriptar()">Desencriptar</button>
+                <button type="button" id="dos" class="dos" onclick="botonEncriptar()">Encriptar</button> 
+            </div> 
+        </main>
+        <footer>
+            <p class="copyright">&copy Maciel Abril,2022</p>
+        </footer>
+        <script src="encriptador.js"></script>
+    </body>
+</html>
